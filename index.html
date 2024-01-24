@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3ac3c28dae.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <script src="scientific.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="data">
+        <input type="text" id="inputData" disabled>
+    </div>
+    <hr>
+    <div class="btn-container">
+        
+        <div class="btns normal">
+            <button class="btn" style="color: #FC2947;" id="btn_clear">C</button>
+            <button class="btn op" value="%">%</button>
+            <button class="btn op" value="/">/</button>
+            <button class="btn" id="btn_back"><i class="fas fa-delete-left btn_back"></i></button>
+
+            <button class="btn op"  value="1">1</button>
+            <button class="btn op" value="2">2</button>
+            <button class="btn op" value="3">3</button>
+
+            <button class="btn op" id="btn_mul" value="*">x</button>
+            
+            <button class="btn op" value="4">4</button>
+            <button class="btn op" value="5">5</button>
+            <button class="btn op" value="6">6</button>
+            
+            <button class="btn op" value="-">-</button>
+            
+            <button class="btn op" value="7">7</button>
+            <button class="btn op" value="8">8</button>
+            <button class="btn op" value="9">9</button>
+            <button class="btn op" value="+">+</button>
+            <button class="btn" id="scientific"><i class="fas fa-calculator"></i></button>
+            <button class="btn op" value="0">0</button>
+            <button class="btn op" value=".">.</button>
+            <button class="btn" style="background-color: #A2FF86;color:#000" id="btn_equal">=</button>
+        </div>
+    
+    </div>
+    <div class="container-sci hide">
+        <div class="btns">
+            <button class="btn" style="color: #FC2947;" id="btn_clear">C</button>
+            <button class="btn" id="normal"><i class="fas fa-calculator"></i></button>
+            <button class="btn op" id="power"></button>
+            <button class="btn" id="btn_back"><i class="fas fa-delete-left btn_back"></i></button>
+            
+            <button class="btn op"  value="factorial">X!</button>
+            <button class="btn op" value="square">X<sup>2</sup></sup></button>
+            <button class="btn op" value="xy">X<sup>y</sup></button>
+            
+            <button class="btn op" id="btn_mul" value="root">&radic;</button>
+            
+            <button class="btn op" value="root3">&#8731;</button>
+            <button class="btn op" value="log">log</button>
+            <button class="btn op" value="sin">sin</button>
+            
+            <button class="btn op" value="rupees">&#8377</button>
+            
+            <button class="btn op" value="dollar">&#36</button>
+            <button class="btn op" value="greater">></button>
+            <button class="btn op" value="lower"><</button>
+            <button class="btn" style="background-color: #A2FF86;color:#000" id="btn_equal">=</button>
+            </div>
+    </div>
+</div>
+</body>
+</html>
